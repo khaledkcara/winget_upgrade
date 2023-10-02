@@ -12,7 +12,7 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 
 ##########
 # Winget upgrades
-##########
+###########
 
 Write-information "========================================"
 Write-Host "Checking & Upgrading Winget Applications"
