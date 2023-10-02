@@ -14,7 +14,14 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 # Winget upgrades
 ##########
 
+Write-Host "========================================"
+Write-Host "Checking & Upgrading Winget Applications"
+Write-Host "========================================"
 Get-Date >> C:\Users\Khalid\Documents\upgradelogs.txt
+Write-Host "========================================"
+
+
+
 winget upgrade JGraph.Draw --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
 winget upgrade CrystalDewWorld.CrystalDiskInfo --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
 winget upgrade Mozilla.Firefox --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
@@ -47,5 +54,8 @@ winget upgrade Microsoft.VisualStudioCode --accept-package-agreements --accept-s
 winget upgrade EclipseAdoptium.Temurin.16.JDK --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
 winget upgrade voidtools.Everything --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
 winget upgrade XP89DCGQ3K6VLD --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
+Write-Host "========================================"
+Write-Host "Items Left from Upgrading"
+Write-Host "========================================"
 winget upgrade  >> C:\Users\Khalid\Documents\upgradelogs.txt
 
