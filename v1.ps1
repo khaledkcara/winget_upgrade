@@ -54,8 +54,8 @@ winget upgrade Microsoft.VisualStudioCode --accept-package-agreements --accept-s
 winget upgrade EclipseAdoptium.Temurin.16.JDK --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
 winget upgrade voidtools.Everything --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
 winget upgrade XP89DCGQ3K6VLD --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-Write-Host "========================================" >>
-Write-Host "Items Left from Upgrading" >>
+Write-Host "========================================"
+Write-Host "Items Left from Upgrading"
 Write-Host "========================================"
 winget upgrade  >> C:\Users\Khalid\Documents\upgradelogs.txt
 
