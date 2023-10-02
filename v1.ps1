@@ -12,50 +12,49 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 
 ##########
 # Winget upgrades
-###########
+##########
 
-Write-information "========================================"
-Write-Host "Checking & Upgrading Winget Applications"
-Write-Host "========================================"
-Get-Date >> C:\Users\Khalid\Documents\upgradelogs.txt
-Write-Host "========================================"
+Write-output "========================================"
+Write-output "Checking & Upgrading Winget Applications"
+Write-output "========================================"
+Get-Date
+Write-output "========================================"
 
 
 
-winget upgrade JGraph.Draw --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade CrystalDewWorld.CrystalDiskInfo --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Mozilla.Firefox --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade WiresharkFoundation.Wireshark --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Google.Chrome --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Balena.Etcher --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade WinSCP.WinSCP --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Malwarebytes.Malwarebytes --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade ElectronicArts.EADesktop --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Microsoft.VCRedist.2013.x64 --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Microsoft.VCRedist.2015+.x64 --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Microsoft.VCRedist.2013.x86 --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Microsoft.VCRedist.2015+.x86 --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Eugeny.Tabby --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade KLiteCodecPack_is1 --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Notepad++.Notepad++ --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade VideoLAN.VLC --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade RARLab.WinRAR --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade ZeroTier.ZeroTierOne --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade qBittorrent.qBittorrent --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade NordSecurity.NordVPN --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade WinSCP.WinSCP --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade SoftDeluxe.FreeDownloadManager --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade WireGuard.WireGuard --accept-package-agreements	--accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Famatech.AdvancedIPScanner --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Zoom.Zoom --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade RealVNC.VNCViewer --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Oracle.VirtualBox --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade EclipseAdoptium.Temurin.16.JDK --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade voidtools.Everything --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-winget upgrade XP89DCGQ3K6VLD --accept-package-agreements --accept-source-agreements >> C:\Users\Khalid\Documents\upgradelogs.txt
-Write-Host "========================================"
-Write-Host "Items Left from Upgrading"
-Write-Host "========================================"
-winget upgrade  >> C:\Users\Khalid\Documents\upgradelogs.txt
-
+winget upgrade JGraph.Draw --accept-package-agreements --accept-source-agreements
+winget upgrade CrystalDewWorld.CrystalDiskInfo --accept-package-agreements --accept-source-agreements
+winget upgrade Mozilla.Firefox --accept-package-agreements --accept-source-agreements
+winget upgrade WiresharkFoundation.Wireshark --accept-package-agreements --accept-source-agreements
+winget upgrade Google.Chrome --accept-package-agreements --accept-source-agreements
+winget upgrade Balena.Etcher --accept-package-agreements --accept-source-agreements
+winget upgrade WinSCP.WinSCP --accept-package-agreements --accept-source-agreements
+winget upgrade Malwarebytes.Malwarebytes --accept-package-agreements --accept-source-agreements
+winget upgrade ElectronicArts.EADesktop --accept-package-agreements	--accept-source-agreements
+winget upgrade Microsoft.VCRedist.2013.x64 --accept-package-agreements --accept-source-agreements
+winget upgrade Microsoft.VCRedist.2015+.x64 --accept-package-agreements --accept-source-agreements
+winget upgrade Microsoft.VCRedist.2013.x86 --accept-package-agreements --accept-source-agreements
+winget upgrade Microsoft.VCRedist.2015+.x86 --accept-package-agreements	--accept-source-agreements
+winget upgrade Eugeny.Tabby --accept-package-agreements	--accept-source-agreements
+winget upgrade KLiteCodecPack_is1 --accept-package-agreements --accept-source-agreements
+winget upgrade Notepad++.Notepad++ --accept-package-agreements --accept-source-agreements
+winget upgrade VideoLAN.VLC --accept-package-agreements	--accept-source-agreements
+winget upgrade RARLab.WinRAR --accept-package-agreements --accept-source-agreements
+winget upgrade ZeroTier.ZeroTierOne --accept-package-agreements	--accept-source-agreements
+winget upgrade qBittorrent.qBittorrent --accept-package-agreements --accept-source-agreements
+winget upgrade NordSecurity.NordVPN --accept-package-agreements	--accept-source-agreements
+winget upgrade WinSCP.WinSCP --accept-package-agreements --accept-source-agreements
+winget upgrade SoftDeluxe.FreeDownloadManager --accept-package-agreements --accept-source-agreements
+winget upgrade WireGuard.WireGuard --accept-package-agreements	--accept-source-agreements
+winget upgrade Famatech.AdvancedIPScanner --accept-package-agreements --accept-source-agreements 
+winget upgrade Zoom.Zoom --accept-package-agreements --accept-source-agreements
+winget upgrade RealVNC.VNCViewer --accept-package-agreements --accept-source-agreements
+winget upgrade Oracle.VirtualBox --accept-package-agreements --accept-source-agreements
+winget upgrade Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements
+winget upgrade EclipseAdoptium.Temurin.16.JDK --accept-package-agreements --accept-source-agreements
+winget upgrade voidtools.Everything --accept-package-agreements --accept-source-agreements
+winget upgrade XP89DCGQ3K6VLD --accept-package-agreements --accept-source-agreements 
+Write-output "========================================"
+Write-output "Items Left from Upgrading"
+Write-output "========================================"
+winget upgrade
