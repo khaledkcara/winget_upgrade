@@ -14,7 +14,7 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 # Winget upgrades
 ##########
 
-Write-output "========================================"
+Write-information "========================================"
 Write-Host "Checking & Upgrading Winget Applications"
 Write-Host "========================================"
 Get-Date >> C:\Users\Khalid\Documents\upgradelogs.txt
